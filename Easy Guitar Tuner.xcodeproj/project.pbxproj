@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18BA516F1C12F4F1004FD940 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA516E1C12F4F1004FD940 /* main.m */; };
+		18BA51721C12F4F1004FD940 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA51711C12F4F1004FD940 /* AppDelegate.m */; };
+		18BA51751C12F4F1004FD940 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA51741C12F4F1004FD940 /* ViewController.m */; };
+		18BA51781C12F4F1004FD940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BA51761C12F4F1004FD940 /* Main.storyboard */; };
+		18BA517B1C12F4F1004FD940 /* Easy_Guitar_Tuner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18BA51791C12F4F1004FD940 /* Easy_Guitar_Tuner.xcdatamodeld */; };
+		18BA517D1C12F4F1004FD940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BA517C1C12F4F1004FD940 /* Assets.xcassets */; };
+		18BA51801C12F4F1004FD940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BA517E1C12F4F1004FD940 /* LaunchScreen.storyboard */; };
+		18BA518B1C12F4F1004FD940 /* Easy_Guitar_TunerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA518A1C12F4F1004FD940 /* Easy_Guitar_TunerTests.m */; };
+		18BA51961C12F4F2004FD940 /* Easy_Guitar_TunerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA51951C12F4F2004FD940 /* Easy_Guitar_TunerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18BA51871C12F4F1004FD940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BA51621C12F4F1004FD940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BA51691C12F4F1004FD940;
+			remoteInfo = "Easy Guitar Tuner";
+		};
+		18BA51921C12F4F1004FD940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BA51621C12F4F1004FD940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BA51691C12F4F1004FD940;
+			remoteInfo = "Easy Guitar Tuner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18BA516A1C12F4F1004FD940 /* Easy Guitar Tuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Guitar Tuner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BA516E1C12F4F1004FD940 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18BA51701C12F4F1004FD940 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18BA51711C12F4F1004FD940 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18BA51731C12F4F1004FD940 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18BA51741C12F4F1004FD940 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18BA51771C12F4F1004FD940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18BA517A1C12F4F1004FD940 /* Easy_Guitar_Tuner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Easy_Guitar_Tuner.xcdatamodel; sourceTree = "<group>"; };
+		18BA517C1C12F4F1004FD940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18BA517F1C12F4F1004FD940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18BA51811C12F4F1004FD940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BA51861C12F4F1004FD940 /* Easy Guitar TunerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy Guitar TunerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BA518A1C12F4F1004FD940 /* Easy_Guitar_TunerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Easy_Guitar_TunerTests.m; sourceTree = "<group>"; };
+		18BA518C1C12F4F1004FD940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BA51911C12F4F1004FD940 /* Easy Guitar TunerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy Guitar TunerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BA51951C12F4F2004FD940 /* Easy_Guitar_TunerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Easy_Guitar_TunerUITests.m; sourceTree = "<group>"; };
+		18BA51971C12F4F2004FD940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BA51671C12F4F1004FD940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BA51831C12F4F1004FD940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BA518E1C12F4F1004FD940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BA51611C12F4F1004FD940 = {
+			isa = PBXGroup;
+			children = (
+				18BA516C1C12F4F1004FD940 /* Easy Guitar Tuner */,
+				18BA51891C12F4F1004FD940 /* Easy Guitar TunerTests */,
+				18BA51941C12F4F2004FD940 /* Easy Guitar TunerUITests */,
+				18BA516B1C12F4F1004FD940 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18BA516B1C12F4F1004FD940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BA516A1C12F4F1004FD940 /* Easy Guitar Tuner.app */,
+				18BA51861C12F4F1004FD940 /* Easy Guitar TunerTests.xctest */,
+				18BA51911C12F4F1004FD940 /* Easy Guitar TunerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18BA516C1C12F4F1004FD940 /* Easy Guitar Tuner */ = {
+			isa = PBXGroup;
+			children = (
+				18BA51701C12F4F1004FD940 /* AppDelegate.h */,
+				18BA51711C12F4F1004FD940 /* AppDelegate.m */,
+				18BA51731C12F4F1004FD940 /* ViewController.h */,
+				18BA51741C12F4F1004FD940 /* ViewController.m */,
+				18BA51761C12F4F1004FD940 /* Main.storyboard */,
+				18BA517C1C12F4F1004FD940 /* Assets.xcassets */,
+				18BA517E1C12F4F1004FD940 /* LaunchScreen.storyboard */,
+				18BA51811C12F4F1004FD940 /* Info.plist */,
+				18BA51791C12F4F1004FD940 /* Easy_Guitar_Tuner.xcdatamodeld */,
+				18BA516D1C12F4F1004FD940 /* Supporting Files */,
+			);
+			path = "Easy Guitar Tuner";
+			sourceTree = "<group>";
+		};
+		18BA516D1C12F4F1004FD940 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18BA516E1C12F4F1004FD940 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18BA51891C12F4F1004FD940 /* Easy Guitar TunerTests */ = {
+			isa = PBXGroup;
+			children = (
+				18BA518A1C12F4F1004FD940 /* Easy_Guitar_TunerTests.m */,
+				18BA518C1C12F4F1004FD940 /* Info.plist */,
+			);
+			path = "Easy Guitar TunerTests";
+			sourceTree = "<group>";
+		};
+		18BA51941C12F4F2004FD940 /* Easy Guitar TunerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18BA51951C12F4F2004FD940 /* Easy_Guitar_TunerUITests.m */,
+				18BA51971C12F4F2004FD940 /* Info.plist */,
+			);
+			path = "Easy Guitar TunerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BA51691C12F4F1004FD940 /* Easy Guitar Tuner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BA519A1C12F4F2004FD940 /* Build configuration list for PBXNativeTarget "Easy Guitar Tuner" */;
+			buildPhases = (
+				18BA51661C12F4F1004FD940 /* Sources */,
+				18BA51671C12F4F1004FD940 /* Frameworks */,
+				18BA51681C12F4F1004FD940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Easy Guitar Tuner";
+			productName = "Easy Guitar Tuner";
+			productReference = 18BA516A1C12F4F1004FD940 /* Easy Guitar Tuner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18BA51851C12F4F1004FD940 /* Easy Guitar TunerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BA519D1C12F4F2004FD940 /* Build configuration list for PBXNativeTarget "Easy Guitar TunerTests" */;
+			buildPhases = (
+				18BA51821C12F4F1004FD940 /* Sources */,
+				18BA51831C12F4F1004FD940 /* Frameworks */,
+				18BA51841C12F4F1004FD940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BA51881C12F4F1004FD940 /* PBXTargetDependency */,
+			);
+			name = "Easy Guitar TunerTests";
+			productName = "Easy Guitar TunerTests";
+			productReference = 18BA51861C12F4F1004FD940 /* Easy Guitar TunerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18BA51901C12F4F1004FD940 /* Easy Guitar TunerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BA51A01C12F4F2004FD940 /* Build configuration list for PBXNativeTarget "Easy Guitar TunerUITests" */;
+			buildPhases = (
+				18BA518D1C12F4F1004FD940 /* Sources */,
+				18BA518E1C12F4F1004FD940 /* Frameworks */,
+				18BA518F1C12F4F1004FD940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BA51931C12F4F1004FD940 /* PBXTargetDependency */,
+			);
+			name = "Easy Guitar TunerUITests";
+			productName = "Easy Guitar TunerUITests";
+			productReference = 18BA51911C12F4F1004FD940 /* Easy Guitar TunerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BA51621C12F4F1004FD940 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Visne Software";
+				TargetAttributes = {
+					18BA51691C12F4F1004FD940 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					18BA51851C12F4F1004FD940 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 18BA51691C12F4F1004FD940;
+					};
+					18BA51901C12F4F1004FD940 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 18BA51691C12F4F1004FD940;
+					};
+				};
+			};
+			buildConfigurationList = 18BA51651C12F4F1004FD940 /* Build configuration list for PBXProject "Easy Guitar Tuner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18BA51611C12F4F1004FD940;
+			productRefGroup = 18BA516B1C12F4F1004FD940 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BA51691C12F4F1004FD940 /* Easy Guitar Tuner */,
+				18BA51851C12F4F1004FD940 /* Easy Guitar TunerTests */,
+				18BA51901C12F4F1004FD940 /* Easy Guitar TunerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BA51681C12F4F1004FD940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BA51801C12F4F1004FD940 /* LaunchScreen.storyboard in Resources */,
+				18BA517D1C12F4F1004FD940 /* Assets.xcassets in Resources */,
+				18BA51781C12F4F1004FD940 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BA51841C12F4F1004FD940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BA518F1C12F4F1004FD940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BA51661C12F4F1004FD940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BA517B1C12F4F1004FD940 /* Easy_Guitar_Tuner.xcdatamodeld in Sources */,
+				18BA51751C12F4F1004FD940 /* ViewController.m in Sources */,
+				18BA51721C12F4F1004FD940 /* AppDelegate.m in Sources */,
+				18BA516F1C12F4F1004FD940 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BA51821C12F4F1004FD940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BA518B1C12F4F1004FD940 /* Easy_Guitar_TunerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BA518D1C12F4F1004FD940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BA51961C12F4F2004FD940 /* Easy_Guitar_TunerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18BA51881C12F4F1004FD940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BA51691C12F4F1004FD940 /* Easy Guitar Tuner */;
+			targetProxy = 18BA51871C12F4F1004FD940 /* PBXContainerItemProxy */;
+		};
+		18BA51931C12F4F1004FD940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BA51691C12F4F1004FD940 /* Easy Guitar Tuner */;
+			targetProxy = 18BA51921C12F4F1004FD940 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18BA51761C12F4F1004FD940 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BA51771C12F4F1004FD940 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18BA517E1C12F4F1004FD940 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BA517F1C12F4F1004FD940 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18BA51981C12F4F2004FD940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18BA51991C12F4F2004FD940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18BA519B1C12F4F2004FD940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Easy Guitar Tuner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VS.Easy-Guitar-Tuner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18BA519C1C12F4F2004FD940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Easy Guitar Tuner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VS.Easy-Guitar-Tuner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18BA519E1C12F4F2004FD940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Easy Guitar TunerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VS.Easy-Guitar-TunerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy Guitar Tuner.app/Easy Guitar Tuner";
+			};
+			name = Debug;
+		};
+		18BA519F1C12F4F2004FD940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Easy Guitar TunerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VS.Easy-Guitar-TunerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy Guitar Tuner.app/Easy Guitar Tuner";
+			};
+			name = Release;
+		};
+		18BA51A11C12F4F2004FD940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Easy Guitar TunerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VS.Easy-Guitar-TunerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Easy Guitar Tuner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18BA51A21C12F4F2004FD940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Easy Guitar TunerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VS.Easy-Guitar-TunerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Easy Guitar Tuner";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BA51651C12F4F1004FD940 /* Build configuration list for PBXProject "Easy Guitar Tuner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BA51981C12F4F2004FD940 /* Debug */,
+				18BA51991C12F4F2004FD940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BA519A1C12F4F2004FD940 /* Build configuration list for PBXNativeTarget "Easy Guitar Tuner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BA519B1C12F4F2004FD940 /* Debug */,
+				18BA519C1C12F4F2004FD940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18BA519D1C12F4F2004FD940 /* Build configuration list for PBXNativeTarget "Easy Guitar TunerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BA519E1C12F4F2004FD940 /* Debug */,
+				18BA519F1C12F4F2004FD940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18BA51A01C12F4F2004FD940 /* Build configuration list for PBXNativeTarget "Easy Guitar TunerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BA51A11C12F4F2004FD940 /* Debug */,
+				18BA51A21C12F4F2004FD940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18BA51791C12F4F1004FD940 /* Easy_Guitar_Tuner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18BA517A1C12F4F1004FD940 /* Easy_Guitar_Tuner.xcdatamodel */,
+			);
+			currentVersion = 18BA517A1C12F4F1004FD940 /* Easy_Guitar_Tuner.xcdatamodel */;
+			path = Easy_Guitar_Tuner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18BA51621C12F4F1004FD940 /* Project object */;
+}
