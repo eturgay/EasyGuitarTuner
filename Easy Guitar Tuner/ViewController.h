@@ -10,6 +10,13 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *imgGuitar;
+- (IBAction)fE:(id)sender;
+- (IBAction)fA:(id)sender;
+- (IBAction)fD:(id)sender;
+- (IBAction)fG:(id)sender;
+- (IBAction)fB:(id)sender;
+- (IBAction)fEH:(id)sender;
 
 @end
 

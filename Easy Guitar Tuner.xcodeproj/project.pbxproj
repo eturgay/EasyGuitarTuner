@@ -16,6 +16,13 @@
 		18BA51801C12F4F1004FD940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BA517E1C12F4F1004FD940 /* LaunchScreen.storyboard */; };
 		18BA518B1C12F4F1004FD940 /* Easy_Guitar_TunerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA518A1C12F4F1004FD940 /* Easy_Guitar_TunerTests.m */; };
 		18BA51961C12F4F2004FD940 /* Easy_Guitar_TunerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA51951C12F4F2004FD940 /* Easy_Guitar_TunerUITests.m */; };
+		18BA51A41C130225004FD940 /* guitarneck.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BA51A31C130225004FD940 /* guitarneck.png */; };
+		18BA51A81C14C3A1004FD940 /* guitarneckA.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BA51A51C14C3A1004FD940 /* guitarneckA.png */; };
+		18BA51A91C14C3A1004FD940 /* guitarneckD.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BA51A61C14C3A1004FD940 /* guitarneckD.png */; };
+		18BA51AA1C14C3A1004FD940 /* guitarneckE.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BA51A71C14C3A1004FD940 /* guitarneckE.png */; };
+		18BA51AE1C14C51F004FD940 /* guitarneckB.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BA51AB1C14C51F004FD940 /* guitarneckB.png */; };
+		18BA51AF1C14C51F004FD940 /* guitarneckEH.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BA51AC1C14C51F004FD940 /* guitarneckEH.png */; };
+		18BA51B01C14C51F004FD940 /* guitarneckG.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BA51AD1C14C51F004FD940 /* guitarneckG.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,13 @@
 		18BA51911C12F4F1004FD940 /* Easy Guitar TunerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy Guitar TunerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BA51951C12F4F2004FD940 /* Easy_Guitar_TunerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Easy_Guitar_TunerUITests.m; sourceTree = "<group>"; };
 		18BA51971C12F4F2004FD940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BA51A31C130225004FD940 /* guitarneck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guitarneck.png; path = images/guitarneck.png; sourceTree = "<group>"; };
+		18BA51A51C14C3A1004FD940 /* guitarneckA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guitarneckA.png; path = images/guitarneckA.png; sourceTree = "<group>"; };
+		18BA51A61C14C3A1004FD940 /* guitarneckD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guitarneckD.png; path = images/guitarneckD.png; sourceTree = "<group>"; };
+		18BA51A71C14C3A1004FD940 /* guitarneckE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guitarneckE.png; path = images/guitarneckE.png; sourceTree = "<group>"; };
+		18BA51AB1C14C51F004FD940 /* guitarneckB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guitarneckB.png; path = images/guitarneckB.png; sourceTree = "<group>"; };
+		18BA51AC1C14C51F004FD940 /* guitarneckEH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guitarneckEH.png; path = images/guitarneckEH.png; sourceTree = "<group>"; };
+		18BA51AD1C14C51F004FD940 /* guitarneckG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guitarneckG.png; path = images/guitarneckG.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +97,13 @@
 		18BA51611C12F4F1004FD940 = {
 			isa = PBXGroup;
 			children = (
+				18BA51AB1C14C51F004FD940 /* guitarneckB.png */,
+				18BA51AC1C14C51F004FD940 /* guitarneckEH.png */,
+				18BA51AD1C14C51F004FD940 /* guitarneckG.png */,
+				18BA51A51C14C3A1004FD940 /* guitarneckA.png */,
+				18BA51A61C14C3A1004FD940 /* guitarneckD.png */,
+				18BA51A71C14C3A1004FD940 /* guitarneckE.png */,
+				18BA51A31C130225004FD940 /* guitarneck.png */,
 				18BA516C1C12F4F1004FD940 /* Easy Guitar Tuner */,
 				18BA51891C12F4F1004FD940 /* Easy Guitar TunerTests */,
 				18BA51941C12F4F2004FD940 /* Easy Guitar TunerUITests */,
@@ -247,8 +268,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				18BA51801C12F4F1004FD940 /* LaunchScreen.storyboard in Resources */,
+				18BA51AE1C14C51F004FD940 /* guitarneckB.png in Resources */,
 				18BA517D1C12F4F1004FD940 /* Assets.xcassets in Resources */,
+				18BA51A41C130225004FD940 /* guitarneck.png in Resources */,
+				18BA51A91C14C3A1004FD940 /* guitarneckD.png in Resources */,
 				18BA51781C12F4F1004FD940 /* Main.storyboard in Resources */,
+				18BA51A81C14C3A1004FD940 /* guitarneckA.png in Resources */,
+				18BA51AA1C14C3A1004FD940 /* guitarneckE.png in Resources */,
+				18BA51B01C14C51F004FD940 /* guitarneckG.png in Resources */,
+				18BA51AF1C14C51F004FD940 /* guitarneckEH.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +444,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Easy Guitar Tuner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "VS.Easy-Guitar-Tuner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Easy Guitar Tuner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "VS.Easy-Guitar-Tuner";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,6 +530,7 @@
 				18BA519C1C12F4F2004FD940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18BA519D1C12F4F2004FD940 /* Build configuration list for PBXNativeTarget "Easy Guitar TunerTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +539,7 @@
 				18BA519F1C12F4F2004FD940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18BA51A01C12F4F2004FD940 /* Build configuration list for PBXNativeTarget "Easy Guitar TunerUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +548,7 @@
 				18BA51A21C12F4F2004FD940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
