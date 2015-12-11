@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B8BA301C1AF58600C81118 /* markerPos0.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B8BA2F1C1AF58600C81118 /* markerPos0.png */; };
+		18B8BA381C1B055E00C81118 /* markerPos_m1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B8BA311C1B055E00C81118 /* markerPos_m1.png */; };
+		18B8BA391C1B055E00C81118 /* markerPos_m2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B8BA321C1B055E00C81118 /* markerPos_m2.png */; };
+		18B8BA3A1C1B055E00C81118 /* markerPos_m3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B8BA331C1B055E00C81118 /* markerPos_m3.png */; };
+		18B8BA3B1C1B055E00C81118 /* markerPos1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B8BA341C1B055E00C81118 /* markerPos1.png */; };
+		18B8BA3C1C1B055E00C81118 /* markerPos2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B8BA351C1B055E00C81118 /* markerPos2.png */; };
+		18B8BA3D1C1B055E00C81118 /* markerPos3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B8BA361C1B055E00C81118 /* markerPos3.png */; };
+		18B8BA3E1C1B055E00C81118 /* markerPos4.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B8BA371C1B055E00C81118 /* markerPos4.png */; };
+		18B8BA401C1B056E00C81118 /* markerPos_m4.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B8BA3F1C1B056E00C81118 /* markerPos_m4.png */; };
+		18B8BA441C1B125700C81118 /* AudioUnitReceive.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B8BA431C1B125700C81118 /* AudioUnitReceive.m */; };
+		18B8BA541C1B127000C81118 /* FftImplementations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B8BA461C1B127000C81118 /* FftImplementations.cpp */; };
+		18B8BA551C1B127000C81118 /* Filters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B8BA481C1B127000C81118 /* Filters.cpp */; };
+		18B8BA561C1B127000C81118 /* ProcessSignal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B8BA4A1C1B127000C81118 /* ProcessSignal.cpp */; };
+		18B8BA571C1B127000C81118 /* SignalDefinitions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B8BA4C1C1B127000C81118 /* SignalDefinitions.cpp */; };
+		18B8BA581C1B127000C81118 /* SignalGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B8BA4E1C1B127000C81118 /* SignalGenerator.cpp */; };
+		18B8BA591C1B127000C81118 /* SignalModelling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B8BA501C1B127000C81118 /* SignalModelling.cpp */; };
+		18B8BA5A1C1B127000C81118 /* Vectors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B8BA521C1B127000C81118 /* Vectors.cpp */; };
+		18B8BA5E1C1B129100C81118 /* GlobalVariables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18B8BA5C1C1B129100C81118 /* GlobalVariables.cpp */; };
 		18BA516F1C12F4F1004FD940 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA516E1C12F4F1004FD940 /* main.m */; };
 		18BA51721C12F4F1004FD940 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA51711C12F4F1004FD940 /* AppDelegate.m */; };
 		18BA51751C12F4F1004FD940 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA51741C12F4F1004FD940 /* ViewController.m */; };
@@ -43,6 +61,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18B8BA2F1C1AF58600C81118 /* markerPos0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = markerPos0.png; path = images/markerPos0.png; sourceTree = "<group>"; };
+		18B8BA311C1B055E00C81118 /* markerPos_m1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = markerPos_m1.png; path = images/markerPos_m1.png; sourceTree = "<group>"; };
+		18B8BA321C1B055E00C81118 /* markerPos_m2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = markerPos_m2.png; path = images/markerPos_m2.png; sourceTree = "<group>"; };
+		18B8BA331C1B055E00C81118 /* markerPos_m3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = markerPos_m3.png; path = images/markerPos_m3.png; sourceTree = "<group>"; };
+		18B8BA341C1B055E00C81118 /* markerPos1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = markerPos1.png; path = images/markerPos1.png; sourceTree = "<group>"; };
+		18B8BA351C1B055E00C81118 /* markerPos2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = markerPos2.png; path = images/markerPos2.png; sourceTree = "<group>"; };
+		18B8BA361C1B055E00C81118 /* markerPos3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = markerPos3.png; path = images/markerPos3.png; sourceTree = "<group>"; };
+		18B8BA371C1B055E00C81118 /* markerPos4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = markerPos4.png; path = images/markerPos4.png; sourceTree = "<group>"; };
+		18B8BA3F1C1B056E00C81118 /* markerPos_m4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = markerPos_m4.png; path = images/markerPos_m4.png; sourceTree = "<group>"; };
+		18B8BA421C1B125700C81118 /* AudioUnitReceive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioUnitReceive.h; path = "Easy Guitar Tuner/Audio/AudioUnitReceive.h"; sourceTree = "<group>"; };
+		18B8BA431C1B125700C81118 /* AudioUnitReceive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioUnitReceive.m; path = "Easy Guitar Tuner/Audio/AudioUnitReceive.m"; sourceTree = "<group>"; };
+		18B8BA461C1B127000C81118 /* FftImplementations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FftImplementations.cpp; path = "Easy Guitar Tuner/Math/FftImplementations.cpp"; sourceTree = "<group>"; };
+		18B8BA471C1B127000C81118 /* FftImplementations.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FftImplementations.hpp; path = "Easy Guitar Tuner/Math/FftImplementations.hpp"; sourceTree = "<group>"; };
+		18B8BA481C1B127000C81118 /* Filters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Filters.cpp; path = "Easy Guitar Tuner/Math/Filters.cpp"; sourceTree = "<group>"; };
+		18B8BA491C1B127000C81118 /* Filters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filters.h; path = "Easy Guitar Tuner/Math/Filters.h"; sourceTree = "<group>"; };
+		18B8BA4A1C1B127000C81118 /* ProcessSignal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ProcessSignal.cpp; path = "Easy Guitar Tuner/Math/ProcessSignal.cpp"; sourceTree = "<group>"; };
+		18B8BA4B1C1B127000C81118 /* ProcessSignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProcessSignal.h; path = "Easy Guitar Tuner/Math/ProcessSignal.h"; sourceTree = "<group>"; };
+		18B8BA4C1C1B127000C81118 /* SignalDefinitions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SignalDefinitions.cpp; path = "Easy Guitar Tuner/Math/SignalDefinitions.cpp"; sourceTree = "<group>"; };
+		18B8BA4D1C1B127000C81118 /* SignalDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignalDefinitions.h; path = "Easy Guitar Tuner/Math/SignalDefinitions.h"; sourceTree = "<group>"; };
+		18B8BA4E1C1B127000C81118 /* SignalGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SignalGenerator.cpp; path = "Easy Guitar Tuner/Math/SignalGenerator.cpp"; sourceTree = "<group>"; };
+		18B8BA4F1C1B127000C81118 /* SignalGenerator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SignalGenerator.hpp; path = "Easy Guitar Tuner/Math/SignalGenerator.hpp"; sourceTree = "<group>"; };
+		18B8BA501C1B127000C81118 /* SignalModelling.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SignalModelling.cpp; path = "Easy Guitar Tuner/Math/SignalModelling.cpp"; sourceTree = "<group>"; };
+		18B8BA511C1B127000C81118 /* SignalModelling.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SignalModelling.hpp; path = "Easy Guitar Tuner/Math/SignalModelling.hpp"; sourceTree = "<group>"; };
+		18B8BA521C1B127000C81118 /* Vectors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vectors.cpp; path = "Easy Guitar Tuner/Math/Vectors.cpp"; sourceTree = "<group>"; };
+		18B8BA531C1B127000C81118 /* Vectors.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Vectors.hpp; path = "Easy Guitar Tuner/Math/Vectors.hpp"; sourceTree = "<group>"; };
+		18B8BA5C1C1B129100C81118 /* GlobalVariables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GlobalVariables.cpp; path = "Easy Guitar Tuner/Globals/GlobalVariables.cpp"; sourceTree = "<group>"; };
+		18B8BA5D1C1B129100C81118 /* GlobalVariables.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = GlobalVariables.hpp; path = "Easy Guitar Tuner/Globals/GlobalVariables.hpp"; sourceTree = "<group>"; };
 		18BA516A1C12F4F1004FD940 /* Easy Guitar Tuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Guitar Tuner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BA516E1C12F4F1004FD940 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18BA51701C12F4F1004FD940 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -94,16 +139,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18BA51611C12F4F1004FD940 = {
+		18B8BA2E1C1AF55D00C81118 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				18BA51AB1C14C51F004FD940 /* guitarneckB.png */,
+				18B8BA3F1C1B056E00C81118 /* markerPos_m4.png */,
+				18B8BA311C1B055E00C81118 /* markerPos_m1.png */,
+				18B8BA321C1B055E00C81118 /* markerPos_m2.png */,
+				18B8BA331C1B055E00C81118 /* markerPos_m3.png */,
+				18B8BA341C1B055E00C81118 /* markerPos1.png */,
+				18B8BA351C1B055E00C81118 /* markerPos2.png */,
+				18B8BA361C1B055E00C81118 /* markerPos3.png */,
+				18B8BA371C1B055E00C81118 /* markerPos4.png */,
 				18BA51AC1C14C51F004FD940 /* guitarneckEH.png */,
 				18BA51AD1C14C51F004FD940 /* guitarneckG.png */,
 				18BA51A51C14C3A1004FD940 /* guitarneckA.png */,
 				18BA51A61C14C3A1004FD940 /* guitarneckD.png */,
 				18BA51A71C14C3A1004FD940 /* guitarneckE.png */,
 				18BA51A31C130225004FD940 /* guitarneck.png */,
+				18BA51AB1C14C51F004FD940 /* guitarneckB.png */,
+				18B8BA2F1C1AF58600C81118 /* markerPos0.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		18B8BA411C1B124500C81118 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				18B8BA421C1B125700C81118 /* AudioUnitReceive.h */,
+				18B8BA431C1B125700C81118 /* AudioUnitReceive.m */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		18B8BA451C1B125D00C81118 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				18B8BA461C1B127000C81118 /* FftImplementations.cpp */,
+				18B8BA471C1B127000C81118 /* FftImplementations.hpp */,
+				18B8BA481C1B127000C81118 /* Filters.cpp */,
+				18B8BA491C1B127000C81118 /* Filters.h */,
+				18B8BA4A1C1B127000C81118 /* ProcessSignal.cpp */,
+				18B8BA4B1C1B127000C81118 /* ProcessSignal.h */,
+				18B8BA4C1C1B127000C81118 /* SignalDefinitions.cpp */,
+				18B8BA4D1C1B127000C81118 /* SignalDefinitions.h */,
+				18B8BA4E1C1B127000C81118 /* SignalGenerator.cpp */,
+				18B8BA4F1C1B127000C81118 /* SignalGenerator.hpp */,
+				18B8BA501C1B127000C81118 /* SignalModelling.cpp */,
+				18B8BA511C1B127000C81118 /* SignalModelling.hpp */,
+				18B8BA521C1B127000C81118 /* Vectors.cpp */,
+				18B8BA531C1B127000C81118 /* Vectors.hpp */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		18B8BA5B1C1B128000C81118 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				18B8BA5C1C1B129100C81118 /* GlobalVariables.cpp */,
+				18B8BA5D1C1B129100C81118 /* GlobalVariables.hpp */,
+			);
+			name = Globals;
+			sourceTree = "<group>";
+		};
+		18BA51611C12F4F1004FD940 = {
+			isa = PBXGroup;
+			children = (
+				18B8BA5B1C1B128000C81118 /* Globals */,
+				18B8BA451C1B125D00C81118 /* Math */,
+				18B8BA411C1B124500C81118 /* Audio */,
+				18B8BA2E1C1AF55D00C81118 /* images */,
 				18BA516C1C12F4F1004FD940 /* Easy Guitar Tuner */,
 				18BA51891C12F4F1004FD940 /* Easy Guitar TunerTests */,
 				18BA51941C12F4F2004FD940 /* Easy Guitar TunerUITests */,
@@ -268,14 +372,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				18BA51801C12F4F1004FD940 /* LaunchScreen.storyboard in Resources */,
+				18B8BA3D1C1B055E00C81118 /* markerPos3.png in Resources */,
 				18BA51AE1C14C51F004FD940 /* guitarneckB.png in Resources */,
 				18BA517D1C12F4F1004FD940 /* Assets.xcassets in Resources */,
+				18B8BA301C1AF58600C81118 /* markerPos0.png in Resources */,
 				18BA51A41C130225004FD940 /* guitarneck.png in Resources */,
+				18B8BA401C1B056E00C81118 /* markerPos_m4.png in Resources */,
 				18BA51A91C14C3A1004FD940 /* guitarneckD.png in Resources */,
+				18B8BA3A1C1B055E00C81118 /* markerPos_m3.png in Resources */,
+				18B8BA3C1C1B055E00C81118 /* markerPos2.png in Resources */,
 				18BA51781C12F4F1004FD940 /* Main.storyboard in Resources */,
 				18BA51A81C14C3A1004FD940 /* guitarneckA.png in Resources */,
+				18B8BA381C1B055E00C81118 /* markerPos_m1.png in Resources */,
+				18B8BA391C1B055E00C81118 /* markerPos_m2.png in Resources */,
+				18B8BA3E1C1B055E00C81118 /* markerPos4.png in Resources */,
 				18BA51AA1C14C3A1004FD940 /* guitarneckE.png in Resources */,
 				18BA51B01C14C51F004FD940 /* guitarneckG.png in Resources */,
+				18B8BA3B1C1B055E00C81118 /* markerPos1.png in Resources */,
 				18BA51AF1C14C51F004FD940 /* guitarneckEH.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,10 +414,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B8BA541C1B127000C81118 /* FftImplementations.cpp in Sources */,
+				18B8BA571C1B127000C81118 /* SignalDefinitions.cpp in Sources */,
 				18BA517B1C12F4F1004FD940 /* Easy_Guitar_Tuner.xcdatamodeld in Sources */,
 				18BA51751C12F4F1004FD940 /* ViewController.m in Sources */,
+				18B8BA441C1B125700C81118 /* AudioUnitReceive.m in Sources */,
 				18BA51721C12F4F1004FD940 /* AppDelegate.m in Sources */,
+				18B8BA591C1B127000C81118 /* SignalModelling.cpp in Sources */,
+				18B8BA551C1B127000C81118 /* Filters.cpp in Sources */,
 				18BA516F1C12F4F1004FD940 /* main.m in Sources */,
+				18B8BA561C1B127000C81118 /* ProcessSignal.cpp in Sources */,
+				18B8BA5E1C1B129100C81118 /* GlobalVariables.cpp in Sources */,
+				18B8BA5A1C1B127000C81118 /* Vectors.cpp in Sources */,
+				18B8BA581C1B127000C81118 /* SignalGenerator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
